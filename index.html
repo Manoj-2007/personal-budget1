@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>The Fast Budgeters</title>              <!-- This is an SEO Change -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Budget</title>
+    <meta name="description" content="Budget is very important to asses our condition.">    <!-- This is an SEO Change -->
     <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/main.css">
 </head>
 <body>
 
-    <div class="menu">
-        <ul>
-            <li><a href="/">Homepage</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
-            <li><a href="https://google.com">Google</a></li>
-        </ul>
-    </div>
+    <header>       <!-- This is a Semantic HTML Change -->
+        
+        <h1>Financial Budget</h1>   <!-- This is an SEO Change  By putting  the title in h1 tag and title containing relevant info about website we can increase SEO-->
+        <nav>
+            <ul>
+                <li><a href="/">Homepage</a></li>
+                <li><a href="/about.html">About</a></li>        <!-- This is an A11y Change  by doing this we can ensure that our website is more inclusive and accessible to users with disabilities, providing them with a better browsing experience.-->
+                <li><a href="/login.html">Login</a></li>
+                <li><a href="https://google.com">Google</a></li>
+            </ul>
+          </nav>
+    </header>
+    <img src="image.jpg" alt="Please upload Your Photo">     <!-- This is an A11y Change -->
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">       <!-- This is an A11y Change -->
 
     <div class="hero">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
     </div>
+    
+    <article>                                    <!-- This is a Semantic HTML Change -->
+        <h2>Budget Importance</h2>
+        <p>Budget is very important.</p>
+    </article>
+
 
     <div class="container center">
 
@@ -100,6 +115,9 @@
             All rights reserved &copy; Fabio Nolasco
         </div>
     </div>
+    <div class="footer">                               <!-- This is a Semantic HTML Change -->
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </div>                                     
 
 </body>
 </html>
