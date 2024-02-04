@@ -1,32 +1,43 @@
 {
-    "myBudget": [
+    "myBudget":[
         {
-            "title": "Eat Out",
-            "budget": 80
+            "title":"Eat out",
+            "budget": 35
         },
+    
         {
             "title": "Rent",
-            "budget": 400
+            "budget": 500
         },
+    
         {
             "title": "Groceries",
-            "budget": 50
+            "budget": 120
         },
+    
         {
             "title": "Entertainment",
-            "budget": 30
+            "budget": 40
         },
-        {
-            "title": "Party",
-            "budget": 100
-        },
-        {
-            "title": "Travel",
-            "budget": 150
-        },
+    
         {
             "title": "Shopping",
-            "budget": 60
+            "budget": 90
+        },
+    
+        {
+            "title": "Travel",
+            "budget": 50
+        },
+    
+        {
+            "title": "Savings",
+            "budget": 40
+        },
+    
+        {
+            "title": "Health",
+            "budget": 25
         }
     ]
-}
+    }
